@@ -1,9 +1,35 @@
 h1 {
-	font-size: 90%;
-	color: ;
+        font-size: 100%;
+        color: #f44242;
+        font-family: Arial;
 }
-p.important {
-  border-style: solid;
-  border-width: 5px;
-  border-color: purple;
+
+p {
+        font-size: 100%;
+        font-family: Arial;
+        color: #e80000;
+}
+
+li {
+        font-family: Arial;
+        color: #e80000;
+}
+
+html, body {
+        height: 100%;
+        background-image: url("https://i.imgur.com/SWNdRpl.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-color: #f0f0f0;
+}
+
+html{
+        display: table;
+        margin: auto;
+}
+
+body {
+        display: table-cell;
+        vertical-align: middle;
 }
