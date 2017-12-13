@@ -1,54 +1,72 @@
 h1 {
-        font-size: 100%;
-        color: #f44242;
-        font-family: Arial;
+	font-size: 100%;
+	color: #f44242;
+	font-family: Arial;
 }
 
 p {
-        font-size: 100%;
-        font-family: Arial;
-        color: #e80000;
-        line-height: 50%;
-        margin: 10px;
+	font-size: 100%;
+	font-family: Arial;
+	color: #e80000;
+	line-height: 50%;
+	margin: 10px;
 }
 
 li {
-        font-family: Arial;
-        color: #e80000;
-        margin-left: 50px;
+	font-family: Arial;
+	color: #e80000;
+	margin-left: 50px;
 }
 
+
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: #082C42;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #082C42;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #082C42; }
+
+
+
 html, body {
-        height: 100%;
-        background-image: url("https://i.imgur.com/SWNdRpl.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
+	height: 100%;
+	background-image: url("https://i.imgur.com/SWNdRpl.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 audio {
-        display: none;
+	display: none;
 }
 
 html{
-        display: table;
-        margin: auto;
+	display: table;
+	margin: auto;
 }
 
 #content {
-        margin: 30px 0;
-        background: #082c42;
-        padding: 20px;
-        clear: both;
-        border-radius: 5px;
-        background-image: url("https://i.imgur.com/u9fnjR3.gif");
-        background-size: 25%;
-        background-repeat: no-repeat;
-        background-position: right bottom;
+	margin: 30px 0;
+	background: #082c42;
+	padding: 20px;
+	clear: both;
+	border-radius: 5px;
+	background-image: url("https://i.imgur.com/u9fnjR3.gif");
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position: right bottom;
 }
 
 body {
-        display: table-cell;
-        vertical-align: middle;
+	display: table-cell;
+	vertical-align: middle;
 }
-
